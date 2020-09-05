@@ -6,7 +6,7 @@ html,body {
   position: relative;
   scroll-behavior: smooth;
   font-family:'FontAwesome'!important;
-  overflow-x: hidden;
+  
 }
 
 .Home_Page {
@@ -32,8 +32,8 @@ html,body {
 
 .header li {
   float: right;
-font-family: 'Open Sans', sans-serif;
-font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
 }
 
 .header li a {
@@ -45,7 +45,7 @@ font-weight: 500;
   
 }
 
-li a:hover {
+.header li a:hover {
   background-color: gray;
 }
 
@@ -68,20 +68,23 @@ li a:hover {
 .social_Media li {
   display:inline;
   padding:10px;
-  text-decoration: none;
+  
+}
+
+.social_Media a {
   color:black;
-
+  text-decoration: none;
+  background-color: none;
 }
 
-.social_Media li:hover {
+.social_Media a:hover {
   color:lightgray;
-  background-color:none;
+  background-color:transparent;
 }
 
-.social_Media li:visited {
+.social_Media a:visited {
   background-color: none;
   color: none;
-  
 }
 
 .Title{
@@ -164,7 +167,7 @@ font-weight: 500;
 .projects_Table {
 margin:0px;
 padding:0px;
-position: relative;
+position: absolute;
 top:15%;
 left:10%;
 font-family: 'Open Sans', sans-serif;
@@ -187,7 +190,7 @@ color:lightgrey;
 color:none;
 }
 
-.projects_Table td, th {
+.projects_Table td {
 text-align: left;
 padding:10px;
 border-bottom: 1px ridge lightgray; 
@@ -333,6 +336,7 @@ padding-top:70px;
 
 .resume_Text a {
 text-decoration:none;
+color:white;
 }
 
 .resume_Text a:hover {
@@ -349,7 +353,52 @@ color:none;
   bottom:0%;
   position: relative;
   background-color: #181818;
+  margin:0px;
+  padding:0px;
 }
+
+
+.social_Media_Footer {
+  position:absolute;
+  top:30%;
+  text-align: center;
+  width:100%;
+  height:auto;
+  margin:0px;
+  padding:0px;
+}
+
+
+.social_Media_Footer ul{
+  margin:0px;
+  padding:0px;
+
+}
+
+.social_Media_Footer li{
+  display:inline;
+  list-style: none;
+  padding:10px;
+
+}
+
+.social_Media_Footer a{
+  color:white;
+  text-decoration: none;
+  background-color: transparent;
+
+}
+
+
+.social_Media_Footer a:hover{
+  color:lightgray;
+}
+
+.social_Media_Footer a:visited{
+  color:none;
+}
+
+
 
 
 
