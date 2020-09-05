@@ -6,7 +6,7 @@ html,body {
   position: relative;
   scroll-behavior: smooth;
   font-family:'FontAwesome'!important;
-  
+  overflow-x: hidden;
 }
 
 .Home_Page {
@@ -68,7 +68,7 @@ html,body {
 .social_Media li {
   display:inline;
   padding:10px;
-  
+ 
 }
 
 .social_Media a {
@@ -284,6 +284,7 @@ top:25%;
 left:10%;
 right:0px;
 bottom:0px;
+width:70%
 }
 
 .About_Me_Text h1 {
