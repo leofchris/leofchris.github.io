@@ -1,0 +1,353 @@
+html,body {
+  height: 100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  position: relative;
+  scroll-behavior: smooth;
+  font-family:'FontAwesome'!important;
+  overflow-x: hidden;
+}
+
+.Home_Page {
+  height:100%;
+  width:100%;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  top:0;
+  width:100%; 
+  z-index: 2;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgray;   
+}
+
+.header li {
+  float: right;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+.social_Media {
+  top:40%;
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  position: absolute;
+  right:0px;
+  left:0px;
+  text-align: center;
+}
+
+.social_Media ul{
+  list-style-type: none;
+}
+
+.social_Media li {
+  display:inline;
+  padding:10px;
+  text-decoration: none;
+
+}
+
+.social_Media li:hover {
+  color:lightgray;
+}
+
+.social_Media li:visited {
+  background-color: none;
+  color: none;
+  
+}
+
+.Title{
+  position: absolute;
+  top:30%;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+  height:10%;
+  width:100%;
+}
+
+.Title h1, h2{
+  margin:0px;
+  padding:0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Home_Pic {
+
+  position: relative;
+  background-image: url("images/BG.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  width:100%;
+  height:100%;  
+}
+
+
+
+.blackLine{
+  top:97%;
+  position: absolute;
+  border:1px solid black;
+  background-color: black;
+  width:100%;
+  height:3%;
+}
+
+.AboutMe_Page {
+height:50%;
+width:100%;
+position: relative;
+background-color: #181818;
+}
+
+
+
+.Projects_Page{
+  height:200%;
+  width:100%;
+  position: relative;
+}
+
+.projects_Title {
+
+position: absolute;
+top:7%;
+left:10%;
+bottom:0px;
+right:0px;
+padding:0px;
+margin:0px;
+width:100%;
+height:100%;
+}
+
+.projects_Title h1 {
+padding:0px;
+margin:0px;
+letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.projects_Table {
+margin:0px;
+padding:0px;
+position: relative;
+top:15%;
+left:10%;
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+text-decoration: none;
+width: 80%;
+height:auto;
+}
+
+.projects_Table a{
+text-decoration: none;
+color:black;
+}
+
+.projects_Table a:hover{
+color:lightgrey;
+}
+
+.projects_Table a:visited {
+color:none;
+}
+
+.projects_Table td, th {
+text-align: left;
+padding:10px;
+border-bottom: 1px ridge lightgray; 
+line-height: 22px;
+}
+
+
+.projects_Table table {
+margin:0px;
+padding:0px;
+}
+
+.descript {
+width:40%;
+}
+
+
+.projects_Future{
+position: absolute;
+margin:0px;
+padding:0px;
+top:110%;
+left:0px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+}
+
+.projects_Future li {
+padding:5px;
+}
+
+.projects_Future h1 {
+letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.Resume_Page{
+
+height:50%;
+width:100%;
+position: relative;
+
+}
+
+.ContactMe_Page{
+
+height:50%;
+width:100%;
+position: relative;
+}
+
+.contactme_Text {
+position: absolute;
+top:15%;
+left:10%;
+right:0px;
+bottom:0px;
+}
+
+.contactme_Text a {
+  text-decoration: none;
+  color:black;
+}
+
+.contactme_Text p {
+color:black;
+margin:0px;
+padding-top:70px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+}
+
+.contactme_Text a:hover {
+  color:lightgrey;
+}
+
+.contactme_Text a:visited {
+  color:none;
+}
+
+.contactme_Text h1 {
+letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.About_Me_Text {
+position: absolute;
+top:25%;
+left:10%;
+right:0px;
+bottom:0px;
+}
+
+.About_Me_Text h1 {
+padding:0px;
+margin:0px;
+color:white;
+letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+}
+
+.About_Me_Text p {
+color:white;
+margin:0px;
+padding-top:70px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+}
+
+.resume_Page {
+width:100%;
+height:50%;
+position: relative;
+background-color: #181818;
+}
+
+.resume_Text {
+position: absolute;
+top:25%;
+left:10%;
+right:0px;
+bottom:0px;
+
+}
+
+.resume_Page h1 {
+letter-spacing: 3px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 500;
+color:white;
+}
+
+.resume_Text p {
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+color:white;
+margin:0px;
+padding-top:70px;
+}
+
+.resume_Text a {
+text-decoration:none;
+}
+
+.resume_Text a:hover {
+color:lightgray;
+}
+
+.resume_Text a:visted {
+color:none;
+}
+
+.Footer_Page {
+  width: 100%;
+  height:10%;
+  bottom:0%;
+  position: relative;
+  background-color: #181818;
+}
+
+
+
