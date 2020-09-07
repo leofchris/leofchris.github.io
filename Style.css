@@ -190,7 +190,7 @@ color:lightgrey;
 color:none;
 }
 
-.projects_Table td {
+.projects_Table td,th {
 text-align: left;
 padding:10px;
 border-bottom: 1px ridge lightgray; 
